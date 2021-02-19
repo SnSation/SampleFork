@@ -1,22 +1,21 @@
-Sample Project
+Sample Fork
 =============
 
 **Author**: Alexander Blair | ablairdevelopment@gmail.com
 
 **Last Update**: 02/19/2021
 
-Sample Project is a sample GitHub Repository. Its reason for being, intended function, and potential use goes here.
+Sample Fork is a fork of a GitHub Repository. Its sole purpose is to demonstrate my ability to fork a repository. The original repository can be found [here](https://github.com/SnSation/SampleProject "SnSation's SampleProject")
 
-Sample Project's highlighted capabilities can go in a second paragraph, if it is necessary.
+[GitHub Repository](https://github.com/SnSation/SampleFork "Sample Fork Repository")
 
-[GitHub Repository](https://github.com/SnSation/SampleProject "Sample Project Repository")
-
-[Sample Use](https://a-blair-portfolio-api.herokuapp.com/project/SampleProject "Sample Project on Website")
+[Sample Use](https://a-blair-portfolio-api.herokuapp.com/project/SampleFork "Sample Fork on Website")
 
 Goals & Constraints
 -------------------------
 
-Why does this project exist?
+1. Fork a GitHub repository and clone it to my local machine
+2. Add 
 
 What is this project supposed to do?
 
@@ -46,28 +45,28 @@ Integrated Technology
 - ElephantSQL: Database
 - ETC: Other Uses
 
-[Requirements](https://github.com/SnSation/SampleProject/blob/development/requirements.txt "requirements.txt")
+[Requirements](https://github.com/SnSation/SampleFork/blob/development/requirements.txt "requirements.txt")
 
-Starting with Sample Project
+Starting with Sample Fork
 -------------------
 ### Installation
-1. Download [Sample Project](https://github.com/SnSation/SampleProject/ "Download Sample Project") | OR | Clone this [Repository](https://github.com/SnSation/SampleProject/ "Download Sample Project") 
-2. Do this step, and the following steps until Sample Project is ready to use
+1. Download [Sample Fork](https://github.com/SnSation/SampleFork/ "Download Sample Fork") | OR | Clone this [Repository](https://github.com/SnSation/SampleFork/ "Download Sample Fork") 
+2. Do this step, and the following steps until Sample Fork is ready to use
 3. Run `this_file.exe`, Execute `$this command`, or Open `some_file.ext` with *[Some Program](https://www.google.com/chrome/ "Software Website")*
 
 
 
 
-Using Sample Project
+Using Sample Fork
 ------------
 ### The Simplest Case
 
 **The File:**
 ```
 # This is your application.py
-from sampleproject import SampleProject
+from sampleproject import SampleFork
 
-projectInstance = SampleProject()
+projectInstance = SampleFork()
 
 a_string = "A String"
 
@@ -89,7 +88,7 @@ $ sampleproject run
 
 **Output:**
 ```
-Sample Project Results:
+Sample Fork Results:
     1. Your Problem is Solved
     2. Your Life is Easier
     3. You Know More Things
@@ -99,9 +98,9 @@ Sample Project Results:
 **The File:**
 ```
 # This is your application.py
-from sampleproject import SampleProject
+from sampleproject import SampleFork
 
-projectInstance = SampleProject()
+projectInstance = SampleFork()
 
 a_string = "A String"
 
@@ -123,7 +122,7 @@ $ sampleproject run
 
 **Output:**
 ```
-Sample Project Results:
+Sample Fork Results:
     1. Your Problem is Solved
     2. Your Life is Easier
     3. You Know More Things
@@ -138,7 +137,7 @@ Known Issues
 ------------
 
 1. **Name of Issue**: What happens? > How / When does it occur?
-2. **Sample Issue**: Sample Project occassionally hangs without displaying an error message when 
+2. **Sample Issue**: Sample Fork occassionally hangs without displaying an error message when 
 
 Contributors & Credits
 --------------------------
@@ -156,6 +155,6 @@ Contributors & Credits
 Links
 -----
 
-- [Sample Project in Use](https://a-blair-portfolio-api.herokuapp.com/projects/SampleProject "See Sample Project in Use")
-- [Past Versions](https://a-blair-portfolio-api.herokuapp.com/archive/project/SampleProject "Past Versions Directory")
+- [Sample Fork in Use](https://a-blair-portfolio-api.herokuapp.com/projects/SampleFork "See Sample Fork in Use")
+- [Past Versions](https://a-blair-portfolio-api.herokuapp.com/archive/project/SampleFork "Past Versions Directory")
 - [Author](https://a-blair-portfolio-api.herokuapp.com/ "Author Website")
