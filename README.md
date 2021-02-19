@@ -50,11 +50,11 @@ Starting with Sample Fork
 
 2. In the upper right, by the profile options, is a button labeled "Fork"
 
-    ![Fork Button](https://github.com/SnSation/SampleFork/images/fork_button.png)
+    ![Fork Button]https://raw.githubusercontent.com/SnSation/SampleFork/development/images/fork_button.png)
 
 3. From YOUR forked repository, click the green "Code" button, and copy the link
 
-    ![Clone Link](https://github.com/SnSation/SampleFork/images/clone_link.png)
+    ![Clone Link](https://raw.githubusercontent.com/SnSation/SampleFork/development/images/clone_link.png)
 
 4. Navigate to the directory on your computer you want to work from, and clone the repository
 
