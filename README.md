@@ -50,7 +50,7 @@ Starting with Sample Fork
 
 2. In the upper right, by the profile options, is a button labeled "Fork"
 
-    ![Fork Button]https://raw.githubusercontent.com/SnSation/SampleFork/development/images/fork_button.png)
+    ![Fork Button](https://raw.githubusercontent.com/SnSation/SampleFork/development/images/fork_button.png)
 
 3. From YOUR forked repository, click the green "Code" button, and copy the link
 
