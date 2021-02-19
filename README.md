@@ -11,49 +11,58 @@ Sample Fork is a fork of a GitHub Repository. Its sole purpose is to demonstrate
 
 [Sample Use](https://a-blair-portfolio-api.herokuapp.com/project/SampleFork "Sample Fork on Website")
 
-Goals & Constraints
+Goals
 -------------------------
 
 1. Fork a GitHub repository and clone it to my local machine
-2. Add 
+2. Add the original repository as an upstream
+3. Make some changes and push them to this repository
 
-What is this project supposed to do?
-
-What can't be done while creating this project?
+Constraints
+-----------
+1. Cannot clone the original repository to your local machine
 
 Key Features
 ------------
 
-**Core Feature:**
-This is where the core concept of the project would be described. The Core Feature is the piece de resistance around which eeverything else is built.
+**Forked Repository:**
+Sample Fork is an offshoot of [Sample Project](https://github.com/SnSation/SampleProject "Original Repository: SampleProject") which had all the functionality of SampleFork v1.0 with some changes to documentation and included files.
 
-**Secondary Feature:**
-This is where other key features would be described. There may be more than one Secondary Feature, so it is ok to have more than one. These features are more general than singular capabilites. Descriptions here should be general enough that someone unfamiliar with the project should understand what the feature is or does.
+**New README.md:**
+Sample Fork has an updated README.md that is distinctly different from Sample Project's [README.md](https://github.com/SnSation/SampleProject/README.md "Sample Project's README.md")
 
 Integrated Technology
 -----------------------
-**Language(s):**
-- Python
-- JavaScript
-- PostgreSQL
-- ETC
+**Languages:**
+- MarkDown
 
-**Libraries / Packages / AddOns:**
-- Software: What / Why it was used
-- Flask: Back-End API
-- React.JS: Front-End UI
-- ElephantSQL: Database
-- ETC: Other Uses
+**Software:**
+- Anaconda: Package Manager
+- git: Version Control, Upload / Download
 
-[Requirements](https://github.com/SnSation/SampleFork/blob/development/requirements.txt "requirements.txt")
 
 Starting with Sample Fork
 -------------------
 ### Installation
-1. Download [Sample Fork](https://github.com/SnSation/SampleFork/ "Download Sample Fork") | OR | Clone this [Repository](https://github.com/SnSation/SampleFork/ "Download Sample Fork") 
-2. Do this step, and the following steps until Sample Fork is ready to use
-3. Run `this_file.exe`, Execute `$this command`, or Open `some_file.ext` with *[Some Program](https://www.google.com/chrome/ "Software Website")*
+1. Find the repository you want to fork and copy its web address
 
+    `https://github.com/ANOTHER_USER/THEIR_REPOSITORY`
+
+2. In the upper right, by the profile options, is a button labeled "Fork"
+
+    ![Fork Button](https://github.com/SnSation/SampleFork/images/fork_button.png)
+
+3. From YOUR forked repository, click the green "Code" button, and copy the link
+
+    ![Clone Link](https://github.com/SnSation/SampleFork/images/clone_link.png)
+
+4. Navigate to the directory on your computer you want to work from, and clone the repository
+
+    `$ git clone https://github.com/YOUR_USERNAME/YOUR_PROJECT`
+
+5. (Optional) Add the original repository as an upstream so you can access any updates
+
+    `$ git remote add upstream https://github.com/ANOTHER_USER/THEIR_REPOSITORY`
 
 
 
@@ -61,83 +70,30 @@ Using Sample Fork
 ------------
 ### The Simplest Case
 
-**The File:**
+- Now that you own your own fork, you can treat it as your own project!
+- Make whatever changes you want and upload them to your own repository
+
 ```
-# This is your application.py
-from sampleproject import SampleFork
-
-projectInstance = SampleFork()
-
-a_string = "A String"
-
-a_number = 1
-
-an_object = {
-    An : Object,
-    With : Attributes
-}
-
-projectInstance.function(a_string, a_number, an_object)
+$ git add .
+$ git commit -m "COMMIT MESSAGE"
+$ git push origin BRANCH
 ```
 
-**CLI:**
-```
-$ sampleproject run
-    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-```
+### Contributing to the Origial Repository
+- You can try to contribute your changes to the original repository with a pull request
+- Details can be found [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork "Pull Requests from a Fork")
 
-**Output:**
-```
-Sample Fork Results:
-    1. Your Problem is Solved
-    2. Your Life is Easier
-    3. You Know More Things
-```
-
-### A Specific Problem
-**The File:**
-```
-# This is your application.py
-from sampleproject import SampleFork
-
-projectInstance = SampleFork()
-
-a_string = "A String"
-
-a_number = 1
-
-an_object = {
-    An : Object,
-    With : Attributes
-}
-
-projectInstance.function(a_string, a_number, an_object)
-```
-
-**CLI:**
-```
-$ sampleproject run
-    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-```
-
-**Output:**
-```
-Sample Fork Results:
-    1. Your Problem is Solved
-    2. Your Life is Easier
-    3. You Know More Things
-```
 Current Tasks & Future Additions
 --------------------------------
-- [x] Complete Task | Completed: 02/19/2021
-- [ ] Incomplete Task | In Development
-- [ ] Incomplete Task | Future Addition
+- [x] Fork a Repository | Completed: 02/19/2021
+- [x] Clone the Fork | Completed: 02/19/2021
+- [x] Make Changes on a Local Machine | Completed: 02/19/2021
+- [x] Upload changes to the Forked Repository | Completed: 02/19/2021
 
 Known Issues
 ------------
 
-1. **Name of Issue**: What happens? > How / When does it occur?
-2. **Sample Issue**: Sample Fork occassionally hangs without displaying an error message when 
+- N/A
 
 Contributors & Credits
 --------------------------
@@ -146,15 +102,10 @@ Contributors & Credits
     - **Email**: ablairdevelopment@gmail.com
     - **Portfolio**: https://a-blair-portfolio-api.herokuapp.com/
     - **GitHub**: https://github.com/SnSation
-- **Contributors**:
-    - [Contributor Name](https://a-blair-portfolio-api.herokuapp.com/ "Contributor Website") | [GitHub](https://github.com/SnSation) | contributor@email.com
-- **Resources**:
-    - [Resource Name](https://www.google.com/ "Resource Website")
-
 
 Links
 -----
 
 - [Sample Fork in Use](https://a-blair-portfolio-api.herokuapp.com/projects/SampleFork "See Sample Fork in Use")
 - [Past Versions](https://a-blair-portfolio-api.herokuapp.com/archive/project/SampleFork "Past Versions Directory")
-- [Author](https://a-blair-portfolio-api.herokuapp.com/ "Author Website")
+- [Author](https://a-blair-portfolio.herokuapp.com/ "Author Website")
