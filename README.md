@@ -9,7 +9,7 @@ Sample Fork is a fork of a GitHub Repository. Its sole purpose is to demonstrate
 
 [GitHub Repository](https://github.com/SnSation/SampleFork "Sample Fork Repository")
 
-[Sample Use](https://a-blair-portfolio-api.herokuapp.com/project/SampleFork "Sample Fork on Website")
+[Sample Use](https://a-blair-portfolio.herokuapp.com/project/SampleFork "Sample Fork on Website")
 
 Goals
 -------------------------
@@ -100,12 +100,12 @@ Contributors & Credits
 
 - **Owner**: Alexander Blair
     - **Email**: ablairdevelopment@gmail.com
-    - **Portfolio**: https://a-blair-portfolio-api.herokuapp.com/
+    - **Portfolio**: https://a-blair-portfolio.herokuapp.com/
     - **GitHub**: https://github.com/SnSation
 
 Links
 -----
 
-- [Sample Fork in Use](https://a-blair-portfolio-api.herokuapp.com/projects/SampleFork "See Sample Fork in Use")
-- [Past Versions](https://a-blair-portfolio-api.herokuapp.com/archive/project/SampleFork "Past Versions Directory")
+- [Sample Fork in Use](https://a-blair-portfolio.herokuapp.com/projects/SampleFork "See Sample Fork in Use")
+- [Past Versions](https://a-blair-portfolio.herokuapp.com/archive/project/SampleFork "Past Versions Directory")
 - [Author](https://a-blair-portfolio.herokuapp.com/ "Author Website")
